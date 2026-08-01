@@ -7,4 +7,18 @@ header{
 	height: 70px;
 	width: 100%;
 	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	width: 33%;	
+}
+
+header a{
+	color: white;
+}
+
