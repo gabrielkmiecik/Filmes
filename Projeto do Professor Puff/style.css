@@ -29,4 +29,18 @@ main .slide{
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+    padding: 50px;
+}
+
+main .slide h3{
+    color: white;
+    font-size: 40px;
+}
+main .slide h2{
+    color: red;
+    font-size: 50px;
+}
+main .slide p{
+    color: white;
+    font-size: 20px;
 }
