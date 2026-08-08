@@ -29,26 +29,47 @@ main .slide{
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: flex;
+	align-items: center;
 }
 
 main .slide h3{
-    color: white;
-    font-size: 40px;
+   	color: white;
+    	font-size: 60px;
 }
 main .slide h2{
-    color: red;
-    font-size: 50px;
+   	color: red;
+	font-size: 70px;
 }
 main .slide p{
-    color: white;
-    font-size: 18px;
+   	color: white;
+   	font-size: 18px;
 	margin-bottom: 20px;
 }
 main .slide a{
 	color: white;
 	background: red;
-	padding: 8px 15px;
+	padding: 12px 20px;
 	text-decoration: none;
 	border-radius: 8px;
+}
+
+main .slide .descricao-slide{
+	margin-left: 50px;
+}
+
+main .catalogo{
+	margin: 50px;
+}
+
+main .catalogo .destaque-vertodos{
+	display: flex;
+	justify-content: space-between;
+}
+
+main .catalogo .destaque-vertodos a{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
 }
 
