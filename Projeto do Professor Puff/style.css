@@ -112,5 +112,9 @@ main .catalogo ul li .avaliacao{
 	padding: 0 0 10px 10px;
 }
 
+main .catalogo ul{
+	width: 100%;
+}
+
 
 
