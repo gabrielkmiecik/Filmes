@@ -126,8 +126,31 @@ footer{
 	background: #000;
 	height: 350px;
 	width: 100%;
+    display: flex;
+    padding: 15px
 }
 
+footer div{
+    width: 33%;
+    height: 350px;
+    border: 1px solid #ffffff;
+}
+
+footer .sobre {
+    color: white;
+}
+
+footer .sobre h2{
+    font-size: 28px;
+    margin: 20px;
+}
+ 
+footer .sobre p{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px;
+    color: gray;
+}
 
 
 
