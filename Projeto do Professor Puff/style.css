@@ -1,5 +1,6 @@
 body{
 	font-family: "Arial";
+	background: #f3f3f3;
 }
 
 *{
@@ -66,9 +67,10 @@ main .catalogo{
 	margin: 50px;
 }
 
-main .catalogo .destaque-vertodos{
+main .catalogo ul .destaque-vertodos{
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 
 main .catalogo .destaque-vertodos a{
@@ -80,10 +82,10 @@ main .catalogo .destaque-vertodos a{
 main .catalogo ul li{
 	width: 200px;
 	height: 370px;
-	border: 1px solid gray;
 	overflow: hidden;
 	border-radius: 10px;
-    margin: 20px;
+    	margin: 20px;
+	background: #ffffff;
 }
 
 main .catalogo ul li img{
@@ -120,6 +122,11 @@ main .catalogo ul{
     margin: 0 auto;
 }
 
+footer{
+	background: #000;
+	height: 350px;
+	width: 100%;
+}
 
 
 
