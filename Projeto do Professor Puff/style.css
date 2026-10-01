@@ -28,6 +28,14 @@ header a{
 	text-decoration: none;
 }
 
+header a:hover{
+	color:red;
+}
+
+header ul li{
+	position: relative;
+}
+
 main .slide{
 	background: url("imagens/banner-principal.png");
 	width: 100%;
@@ -241,4 +249,22 @@ footer > p{
 
 .disponivel ul li:hover{
 	background: black;
+}
+
+/* menu dropdown*/
+
+.dropdown-content{
+	display: none;
+}
+
+.dropdown:hover .dropdown-content{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	background: black;
+	padding: 0 10px;
+}
+
+.dropdown-content a{
+	padding: 7px 0;
 }
