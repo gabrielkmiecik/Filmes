@@ -1,3 +1,7 @@
+<?php 
+	include('conexao.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -22,5 +26,9 @@
 </html>
 
 <?php
-  echo $_GET['categoria'];
-?>
+
+	if(isset($_GET['salvar'])){
+		$nomeCategoria = $_GET['categoria'];
+	}
+
+ ?>
