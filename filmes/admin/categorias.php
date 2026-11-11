@@ -26,16 +26,19 @@
 </html>
 
 <?php
-
+  /*Inserir dados na tabela categorias*/
 	if(isset($_GET['salvar'])){
 		$nomeCategoria = $_GET['categoria'];
 
-    $sql = "INSERT INTO categoria (nome) values ('$nomeCategoria')";
+    $sql = "INSERT INTO categorias (nome) values ('$nomeCategoria')";
 
-    $conexao->query($sql);
-
-    
-    
+    if($conexao ->query($sql)){
+      echo "Gravou com sucesso";
+    }else {
+      echo "Deu ruim da silva";
+    } 
 	}
-
+  /*Buscar dados da tabela categorias*/
+  $sql = "SELECT * FROM categorias";
+  $resultado = $conexao -> query($sql);
  ?>
