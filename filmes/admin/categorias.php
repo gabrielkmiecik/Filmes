@@ -41,4 +41,6 @@
   /*Buscar dados da tabela categorias*/
   $sql = "SELECT * FROM categorias";
   $resultado = $conexao -> query($sql);
+
+  var_dump($resultado);
  ?>
