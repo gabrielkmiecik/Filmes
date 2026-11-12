@@ -30,7 +30,7 @@
 	if(isset($_GET['salvar'])){
 		$nomeCategoria = $_GET['categoria'];
 
-    $sql = "INSERT INTO categorias (nome) values ('$nomeCategoria')";
+    $sql = "INSERT INTO categoria (nome) values ('$nomeCategoria')";
 
     if($conexao ->query($sql)){
       echo "Gravou com sucesso";
@@ -39,8 +39,12 @@
     } 
 	}
   /*Buscar dados da tabela categorias*/
-  $sql = "SELECT * FROM categorias";
+  $sql = "SELECT * FROM categoria";
   $resultado = $conexao -> query($sql);
 
-  var_dump($resultado);
+  while ($obj = $resultado -> fetch_assoc()) {
+    echo $obj['id']." - ";
+    echo $obj['nome']."<br>";
+
+  }
  ?>
